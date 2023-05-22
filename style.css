@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  border-top: 5px solid #fff;
+  color: #2a2a2a;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Images/bg-cover.png");
+}
+.header {
+  margin: 6px;
+}
+.mt {
+  margin-top: 10px;
+}
+.mb {
+  margin-top: 10px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-width: none !important;
+  height: none !important;
+  margin-top: 26px;
+}
+
+.slider ul {
+  position: relative;
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+  margin-left: 120px !important;
+}
+
+.slider ul li {
+  position: relative;
+  display: inline-block;
+  margin: 25px;
+  padding: 0px;
+  text-align: center;
+  color: #333;
+  height: 520px;
+}
+li:first-child {
+  border: 1px solid rgb(156, 154, 152);
+  background-image: url("./Images/wheel-bg.jpg");
+}
+li:nth-child(2) img {
+  width: 234px;
+}
+li:nth-child(3) img {
+  width: 234px;
+}
+
+.control {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0px;
+}
+
+.next {
+  right: 0px;
+}
